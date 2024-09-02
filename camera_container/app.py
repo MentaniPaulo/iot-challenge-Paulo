@@ -1,9 +1,12 @@
 from flask import Flask, jsonify, abort, send_file
 import os
+import time
+from threading import Lock
 
 app = Flask(__name__)
 
 MOCK_DIR = './mock'
+lock = Lock()
 
 def get_json_file_path(month, day=None):
     if day:
@@ -12,27 +15,31 @@ def get_json_file_path(month, day=None):
 
 @app.route('/month/<int:month>', methods=['GET'])
 def get_month_data(month):
-    if month < 1 or month > 12:
-        abort(404, description="Month out of range")
+    with lock:
+        time.sleep(10)  # Adiciona o delay de 10 segundos
+        if month < 1 or month > 12:
+            abort(400, description="Bad Request")
 
-    file_path = get_json_file_path(month)
+        file_path = get_json_file_path(month)
 
-    if not os.path.exists(file_path):
-        abort(404, description="File not found")
-    
-    return send_file(file_path, mimetype='application/json')
+        if not os.path.exists(file_path):
+            abort(404, description="File not found")
+        
+        return send_file(file_path, mimetype='application/json')
 
 @app.route('/month/<int:month>/day/<int:day>', methods=['GET'])
 def get_day_data(month, day):
-    if month < 1 or month > 12 or day < 1 or day > 31:
-        abort(404, description="Month or day out of range")
+    with lock:
+        time.sleep(10)  # Adiciona o delay de 10 segundos
+        if month < 1 or month > 12 or day < 1 or day > 31:
+            abort(400, description="Bad Request")
 
-    file_path = get_json_file_path(month, day)
+        file_path = get_json_file_path(month, day)
 
-    if not os.path.exists(file_path):
-        abort(404, description="File not found")
+        if not os.path.exists(file_path):
+            abort(404, description="File not found")
 
-    return send_file(file_path, mimetype='application/json')
+        return send_file(file_path, mimetype='application/json')
 
 @app.errorhandler(404)
 def not_found(error):
