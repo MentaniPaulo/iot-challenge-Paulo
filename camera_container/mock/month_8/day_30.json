@@ -1,0 +1,387 @@
+{
+    "result": "success",
+    "data": {
+        "record": [
+            [
+                {
+                    "channel": "CH1",
+                    "record_type": 1,
+                    "record_type_ex": [
+                        0
+                    ],
+                    "start_date": "08/30/2024",
+                    "start_time": "00:00:00",
+                    "end_date": "08/30/2024",
+                    "end_time": "00:40:32",
+                    "record_id": 142,
+                    "disk_event_id": 1,
+                    "size": 187940864
+                },
+                {
+                    "channel": "CH1",
+                    "record_type": 1,
+                    "record_type_ex": [
+                        0
+                    ],
+                    "start_date": "08/30/2024",
+                    "start_time": "00:40:32",
+                    "end_date": "08/30/2024",
+                    "end_time": "01:37:57",
+                    "record_id": 143,
+                    "disk_event_id": 0,
+                    "size": 266133504
+                },
+                {
+                    "channel": "CH1",
+                    "record_type": 1,
+                    "record_type_ex": [
+                        0
+                    ],
+                    "start_date": "08/30/2024",
+                    "start_time": "01:37:57",
+                    "end_date": "08/30/2024",
+                    "end_time": "02:35:21",
+                    "record_id": 144,
+                    "disk_event_id": 0,
+                    "size": 266145792
+                },
+                {
+                    "channel": "CH1",
+                    "record_type": 1,
+                    "record_type_ex": [
+                        0
+                    ],
+                    "start_date": "08/30/2024",
+                    "start_time": "02:35:21",
+                    "end_date": "08/30/2024",
+                    "end_time": "03:32:46",
+                    "record_id": 145,
+                    "disk_event_id": 0,
+                    "size": 266084352
+                },
+                {
+                    "channel": "CH1",
+                    "record_type": 1,
+                    "record_type_ex": [
+                        0
+                    ],
+                    "start_date": "08/30/2024",
+                    "start_time": "03:32:46",
+                    "end_date": "08/30/2024",
+                    "end_time": "04:00:50",
+                    "record_id": 146,
+                    "disk_event_id": 0,
+                    "size": 130187096
+                },
+                {
+                    "channel": "CH1",
+                    "record_type": 1,
+                    "record_type_ex": [
+                        0
+                    ],
+                    "start_date": "08/30/2024",
+                    "start_time": "04:02:03",
+                    "end_date": "08/30/2024",
+                    "end_time": "04:31:21",
+                    "record_id": 146,
+                    "disk_event_id": 1,
+                    "size": 136028160
+                },
+                {
+                    "channel": "CH1",
+                    "record_type": 1,
+                    "record_type_ex": [
+                        0
+                    ],
+                    "start_date": "08/30/2024",
+                    "start_time": "04:31:21",
+                    "end_date": "08/30/2024",
+                    "end_time": "05:28:46",
+                    "record_id": 147,
+                    "disk_event_id": 0,
+                    "size": 266076160
+                },
+                {
+                    "channel": "CH1",
+                    "record_type": 1,
+                    "record_type_ex": [
+                        0
+                    ],
+                    "start_date": "08/30/2024",
+                    "start_time": "05:28:46",
+                    "end_date": "08/30/2024",
+                    "end_time": "06:26:12",
+                    "record_id": 148,
+                    "disk_event_id": 0,
+                    "size": 266186752
+                },
+                {
+                    "channel": "CH1",
+                    "record_type": 1,
+                    "record_type_ex": [
+                        0
+                    ],
+                    "start_date": "08/30/2024",
+                    "start_time": "06:26:12",
+                    "end_date": "08/30/2024",
+                    "end_time": "07:23:37",
+                    "record_id": 149,
+                    "disk_event_id": 0,
+                    "size": 266203136
+                },
+                {
+                    "channel": "CH1",
+                    "record_type": 1,
+                    "record_type_ex": [
+                        0
+                    ],
+                    "start_date": "08/30/2024",
+                    "start_time": "07:23:37",
+                    "end_date": "08/30/2024",
+                    "end_time": "08:21:02",
+                    "record_id": 150,
+                    "disk_event_id": 0,
+                    "size": 266108928
+                },
+                {
+                    "channel": "CH1",
+                    "record_type": 1,
+                    "record_type_ex": [
+                        0
+                    ],
+                    "start_date": "08/30/2024",
+                    "start_time": "08:21:02",
+                    "end_date": "08/30/2024",
+                    "end_time": "09:18:27",
+                    "record_id": 151,
+                    "disk_event_id": 0,
+                    "size": 266203136
+                },
+                {
+                    "channel": "CH1",
+                    "record_type": 1,
+                    "record_type_ex": [
+                        0
+                    ],
+                    "start_date": "08/30/2024",
+                    "start_time": "09:18:27",
+                    "end_date": "08/30/2024",
+                    "end_time": "10:15:51",
+                    "record_id": 152,
+                    "disk_event_id": 0,
+                    "size": 266199040
+                },
+                {
+                    "channel": "CH1",
+                    "record_type": 1,
+                    "record_type_ex": [
+                        0
+                    ],
+                    "start_date": "08/30/2024",
+                    "start_time": "10:15:51",
+                    "end_date": "08/30/2024",
+                    "end_time": "11:13:16",
+                    "record_id": 153,
+                    "disk_event_id": 0,
+                    "size": 266174464
+                },
+                {
+                    "channel": "CH1",
+                    "record_type": 1,
+                    "record_type_ex": [
+                        0
+                    ],
+                    "start_date": "08/30/2024",
+                    "start_time": "11:13:16",
+                    "end_date": "08/30/2024",
+                    "end_time": "12:10:41",
+                    "record_id": 154,
+                    "disk_event_id": 0,
+                    "size": 266223616
+                },
+                {
+                    "channel": "CH1",
+                    "record_type": 1,
+                    "record_type_ex": [
+                        0
+                    ],
+                    "start_date": "08/30/2024",
+                    "start_time": "12:10:41",
+                    "end_date": "08/30/2024",
+                    "end_time": "13:08:07",
+                    "record_id": 155,
+                    "disk_event_id": 0,
+                    "size": 266166272
+                },
+                {
+                    "channel": "CH1",
+                    "record_type": 1,
+                    "record_type_ex": [
+                        0
+                    ],
+                    "start_date": "08/30/2024",
+                    "start_time": "13:08:07",
+                    "end_date": "08/30/2024",
+                    "end_time": "14:05:32",
+                    "record_id": 156,
+                    "disk_event_id": 0,
+                    "size": 266199040
+                },
+                {
+                    "channel": "CH1",
+                    "record_type": 1,
+                    "record_type_ex": [
+                        0
+                    ],
+                    "start_date": "08/30/2024",
+                    "start_time": "14:05:32",
+                    "end_date": "08/30/2024",
+                    "end_time": "15:02:58",
+                    "record_id": 157,
+                    "disk_event_id": 0,
+                    "size": 266174464
+                },
+                {
+                    "channel": "CH1",
+                    "record_type": 1,
+                    "record_type_ex": [
+                        0
+                    ],
+                    "start_date": "08/30/2024",
+                    "start_time": "15:02:58",
+                    "end_date": "08/30/2024",
+                    "end_time": "16:00:24",
+                    "record_id": 158,
+                    "disk_event_id": 0,
+                    "size": 266207232
+                },
+                {
+                    "channel": "CH1",
+                    "record_type": 1,
+                    "record_type_ex": [
+                        0
+                    ],
+                    "start_date": "08/30/2024",
+                    "start_time": "16:00:24",
+                    "end_date": "08/30/2024",
+                    "end_time": "16:57:50",
+                    "record_id": 159,
+                    "disk_event_id": 0,
+                    "size": 266215424
+                },
+                {
+                    "channel": "CH1",
+                    "record_type": 1,
+                    "record_type_ex": [
+                        0
+                    ],
+                    "start_date": "08/30/2024",
+                    "start_time": "16:57:50",
+                    "end_date": "08/30/2024",
+                    "end_time": "17:55:12",
+                    "record_id": 160,
+                    "disk_event_id": 0,
+                    "size": 266166272
+                },
+                {
+                    "channel": "CH1",
+                    "record_type": 1,
+                    "record_type_ex": [
+                        0
+                    ],
+                    "start_date": "08/30/2024",
+                    "start_time": "17:55:12",
+                    "end_date": "08/30/2024",
+                    "end_time": "18:52:39",
+                    "record_id": 161,
+                    "disk_event_id": 0,
+                    "size": 266186752
+                },
+                {
+                    "channel": "CH1",
+                    "record_type": 1,
+                    "record_type_ex": [
+                        0
+                    ],
+                    "start_date": "08/30/2024",
+                    "start_time": "18:52:39",
+                    "end_date": "08/30/2024",
+                    "end_time": "19:50:02",
+                    "record_id": 162,
+                    "disk_event_id": 0,
+                    "size": 266153984
+                },
+                {
+                    "channel": "CH1",
+                    "record_type": 1,
+                    "record_type_ex": [
+                        0
+                    ],
+                    "start_date": "08/30/2024",
+                    "start_time": "19:50:02",
+                    "end_date": "08/30/2024",
+                    "end_time": "20:47:30",
+                    "record_id": 163,
+                    "disk_event_id": 0,
+                    "size": 266223616
+                },
+                {
+                    "channel": "CH1",
+                    "record_type": 1,
+                    "record_type_ex": [
+                        0
+                    ],
+                    "start_date": "08/30/2024",
+                    "start_time": "20:47:30",
+                    "end_date": "08/30/2024",
+                    "end_time": "21:44:54",
+                    "record_id": 164,
+                    "disk_event_id": 0,
+                    "size": 266223616
+                },
+                {
+                    "channel": "CH1",
+                    "record_type": 1,
+                    "record_type_ex": [
+                        0
+                    ],
+                    "start_date": "08/30/2024",
+                    "start_time": "21:44:54",
+                    "end_date": "08/30/2024",
+                    "end_time": "22:42:20",
+                    "record_id": 165,
+                    "disk_event_id": 0,
+                    "size": 266203136
+                },
+                {
+                    "channel": "CH1",
+                    "record_type": 1,
+                    "record_type_ex": [
+                        0
+                    ],
+                    "start_date": "08/30/2024",
+                    "start_time": "22:42:20",
+                    "end_date": "08/30/2024",
+                    "end_time": "23:39:47",
+                    "record_id": 166,
+                    "disk_event_id": 0,
+                    "size": 266199040
+                },
+                {
+                    "channel": "CH1",
+                    "record_type": 1,
+                    "record_type_ex": [
+                        0
+                    ],
+                    "start_date": "08/30/2024",
+                    "start_time": "23:39:47",
+                    "end_date": "08/30/2024",
+                    "end_time": "23:59:59",
+                    "record_id": 167,
+                    "disk_event_id": 0,
+                    "size": 93917184
+                }
+            ]
+        ]
+    }
+}
