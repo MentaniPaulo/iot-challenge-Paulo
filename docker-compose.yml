@@ -1,0 +1,24 @@
+version: '3.3'  # ou '2.2'
+services:
+
+  camera_container:
+    build: ./camera_container
+    ports:
+      - '5000:5000' 
+   
+  record_api:
+    build: ./record_api 
+    ports:
+      - "9090:9090"  # Map container port 80 to host port 8000
+
+    environment:
+      - REDIS=redis
+      - API_CAM=http://camera_container:5000
+    depends_on:
+      - redis
+      - camera_container
+      
+  redis:
+    image: "redis:alpine"
+    ports:
+      - "6379:6379"
